@@ -12,7 +12,7 @@ let tentativa = 1;
 function escreverTextoNaTela(tag, texto){
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
-    responsiveVoice.speak(texto, 'Brazilian Portuguese Female')
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.0})
 }
 
 function exibirMensagemInicial(){
